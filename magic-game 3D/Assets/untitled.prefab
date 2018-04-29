@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1503578774740734}
+  m_IsPrefabParent: 1
+--- !u!1 &1503578774740734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4926866344822724}
+  - component: {fileID: 114534916646932078}
+  - component: {fileID: 114983825431465770}
+  - component: {fileID: 114957075225761902}
+  m_Layer: 0
+  m_Name: untitled
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1768372504208282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4988872052143204}
+  - component: {fileID: 33915509556913440}
+  - component: {fileID: 23699393891638274}
+  m_Layer: 0
+  m_Name: default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4926866344822724
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1503578774740734}
+  m_LocalRotation: {x: -0.38268277, y: -0, z: -0, w: 0.92387986}
+  m_LocalPosition: {x: 0, y: 1.0606587, z: -0.43933845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4988872052143204}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -45.000004, y: 0, z: 0}
+--- !u!4 &4988872052143204
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768372504208282}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4926866344822724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23699393891638274
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768372504208282}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f0692e55b6dc11d4aabadce16627b923, type: 2}
+  - {fileID: 2100000, guid: 05af0507000e8e64ea7bfd77d1708505, type: 2}
+  - {fileID: 2100000, guid: cc3a33859839c994bb765849fb092137, type: 2}
+  - {fileID: 2100000, guid: 0c1389fa18c93d047890bce2e4764f00, type: 2}
+  - {fileID: 2100000, guid: 081013bf059a0f441993e5edd92be829, type: 2}
+  - {fileID: 2100000, guid: c56a93ebe1b5f19488e5168061b758b2, type: 2}
+  - {fileID: 2100000, guid: 83b2378a6016c0645a632c25e872b233, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33915509556913440
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768372504208282}
+  m_Mesh: {fileID: 4300000, guid: 8f29d8f558b3b074baa310b16386e8fe, type: 3}
+--- !u!114 &114534916646932078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1503578774740734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3251401786ec48147b4505d9aff6796a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 100
+  HPMAX: 100
+  MP: 0
+  MPMAX: 0
+  XP: 0
+  XPMAX: 600
+  energy: 0
+  MaxEnergy: 0
+--- !u!114 &114957075225761902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1503578774740734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067c0ef249a49c741b6b2b79d0df3e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114983825431465770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1503578774740734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3697b8d88cfd48e4a85bad4955ae80af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Elementos:
+  - Basicos: agua
+    aprendido: 0
+    color: {r: 0, g: 0.5803752, b: 0.77205884, a: 0}
+    emision: 0
+    material: {fileID: 2100000, guid: 0c1389fa18c93d047890bce2e4764f00, type: 2}
+    price: 0
+    Lvl: 0
+    minlvl: 0
+  - Basicos: tierra
+    aprendido: 0
+    color: {r: 0.75, g: 0.41896552, b: 0, a: 0}
+    emision: 0
+    material: {fileID: 2100000, guid: f0692e55b6dc11d4aabadce16627b923, type: 2}
+    price: 0
+    Lvl: 0
+    minlvl: 0
+  - Basicos: luz
+    aprendido: 0
+    color: {r: 1, g: 0.9632353, b: 0.436, a: 0}
+    emision: 0
+    material: {fileID: 2100000, guid: cc3a33859839c994bb765849fb092137, type: 2}
+    price: 0
+    Lvl: 0
+    minlvl: 0
+  - Basicos: fuego
+    aprendido: 0
+    color: {r: 1, g: 0, b: 0, a: 0}
+    emision: 0
+    material: {fileID: 2100000, guid: 05af0507000e8e64ea7bfd77d1708505, type: 2}
+    price: 0
+    Lvl: 0
+    minlvl: 0
+  - Basicos: aire
+    aprendido: 0
+    color: {r: 0.52205884, g: 0.52205884, b: 0.52205884, a: 0}
+    emision: 0
+    material: {fileID: 2100000, guid: 83b2378a6016c0645a632c25e872b233, type: 2}
+    price: 0
+    Lvl: 0
+    minlvl: 0
+  - Basicos: oscuridad
+    aprendido: 0
+    color: {r: 0.39705884, g: 0, b: 0.3861056, a: 0}
+    emision: 0
+    material: {fileID: 2100000, guid: c56a93ebe1b5f19488e5168061b758b2, type: 2}
+    price: 0
+    Lvl: 0
+    minlvl: 0
+  - Basicos: Planta
+    aprendido: 0
+    color: {r: 0.0496451, g: 0.6544118, b: 0, a: 0}
+    emision: 0
+    material: {fileID: 2100000, guid: 081013bf059a0f441993e5edd92be829, type: 2}
+    price: 0
+    Lvl: 0
+    minlvl: 0
