@@ -1,1 +1,17 @@
 theme: jekyll-theme-minimal
+
+#setup
+tittle : [hola]
+paginate : 1
+baseurl: ""
+    layout : single
+    
+#about/contact
+autor:
+name: alberto arriagada
+url:
+baseurl:""
+
+#Gems
+gems:
+ -jekyll-paginate
