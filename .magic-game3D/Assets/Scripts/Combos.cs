@@ -7,7 +7,7 @@ public class Combos : MonoBehaviour {
     Status status;
     void Start()
     {
-        status = GetComponent<Status>();
+       // status = GetComponent<Status>();
     }
 
    

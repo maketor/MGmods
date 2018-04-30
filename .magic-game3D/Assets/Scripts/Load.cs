@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MGLoader;
@@ -13,10 +14,11 @@ public class Load : MonoBehaviour {
 
     void Start()
     {
-        Loader.callAtStart();
+        //Loader.callAtStart();
     }
     void Update()
     {
-        Loader.callAtUpdate();
+        //Loader.callAtUpdate();
+        
     }
 }
