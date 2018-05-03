@@ -8,6 +8,7 @@ using System.Linq;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
+
 public class MusicPlayer : MonoBehaviour {
     public static string musica = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\3DMagicGame\\" + "\\Music\\";
     public enum SeekDir { backward,forward}

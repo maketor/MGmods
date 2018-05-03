@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/codes.unity
+- path: Assets/Scenes/nice.unity
   isLoaded: 1
   isActive: 1
